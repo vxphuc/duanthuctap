@@ -1,0 +1,85 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body,
+ html {
+     font-family: Arial, sans-serif;
+     background-color: #f9f9f9;
+     position: relative;
+     top: 50px;
+ }
+
+ .container {
+     width: 80%;
+     margin: 20px auto;
+ }
+
+ h2 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-bottom: 30px;
+ }
+
+ th,
+ td {
+     padding: 15px;
+     text-align: center;
+     border-bottom: 1px solid #ddd;
+ }
+
+ th {
+     background-color: #f2f2f2;
+     font-weight: bold;
+ }
+
+ .product-image {
+     width: 80px;
+     height: auto;
+     border-radius: 5px;
+ }
+
+ .checkout-form {
+     text-align: center;
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     background-color: #fff;
+ }
+
+ .checkout-form label {
+     font-size: 18px;
+     margin-right: 10px;
+ }
+
+ .checkout-form input {
+     padding: 10px;
+     font-size: 16px;
+     width: 60%;
+     margin: 10px 0;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+ }
+
+ .checkout-button {
+     padding: 12px 25px;
+     font-size: 18px;
+     font-weight: bold;
+     color: white;
+     background-color: #ff8c00;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ .checkout-button:hover {
+     background-color: #ffa500;
+ }
